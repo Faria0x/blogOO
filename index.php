@@ -22,7 +22,7 @@ $data = $conexao->findAll();
 
 
 <body>
-    <!-- FOR EACH CRIA UM OBJETO PARA CADA OBJETO EXISTENTE NO BANCO E MOSTRA     -->
+    <!-- FOREACH CRIA UM OBJETO PARA CADA OBJETO EXISTENTE NO BANCO E MOSTRA     -->
     <?php foreach($data as $item):
     ?>
     <main>
